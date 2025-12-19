@@ -302,21 +302,32 @@ h3 {
   margin-bottom: 80px;
 }
 
+.hero__wrapper {
+  display: flex;
+}
+
 .hero__content {
-  padding-block: 3rem;
+  padding: 60px 80px 60px 60px;
   background-color: var(--dark-primary);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  flex: 1;
 }
 
 .hero__title {
+  max-width: 500px;
   font-size: 2rem;
   line-height: 1.2;
-  margin-bottom: 1.5rem;
+  margin-bottom: 3rem;
   color: white;
 }
 
 .hero__button {
   background-color: var(--button-primary);
   color: white;
+  margin-bottom: auto;
+  align-self: flex-start;
 }
 
 .hero__button:hover {
