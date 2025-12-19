@@ -5,6 +5,7 @@
 
 ## Технологии
 - HTML5
+- CSS3
 
 ## Ссылка на проект
 [Публичная страница на GitHub Pages](https://zemskovik.github.io/mirea-dpo-frontend-website/)
