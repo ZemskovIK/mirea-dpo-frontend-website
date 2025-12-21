@@ -492,26 +492,41 @@ h3 {
 }
 
 /* PREFOOTER */
-.prefooter {
-  padding: 2.5rem 0;
-  background-color: white;
+.prefooter__container {
+  max-width: 1400px;
+}
+
+.prefooter__wrapper {
+  display: flex;
+  align-items: stretch;
+}
+
+.prefooter__content {
+  padding: 60px 80px 40px 60px;
+  padding-right: 120px;
+  display: flex;
+  flex-direction: column;
+  flex: 1;
 }
 
 .prefooter__title {
-  font-size: 1.75rem;
-  margin-bottom: 0.6rem;
-  line-height: 1.25;
+  font-size: 1.5rem;
+  line-height: 1.2;
+  margin-bottom: 1.5rem;
 }
 
 .prefooter__text {
   font-size: 1rem;
   line-height: 1.6;
-  margin-bottom: 0.75rem;
+  margin-bottom: 1rem;
+  text-align: justify;
 }
 
 .prefooter__button {
   background-color: var(--light-gray);
   color: var(--dark-primary);
+  margin-top: auto;
+  align-self: flex-start;
 }
 
 .prefooter__button:hover {
